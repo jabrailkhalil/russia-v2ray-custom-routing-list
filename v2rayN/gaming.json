@@ -76,6 +76,14 @@
   },
   {
     "outboundTag":"direct",
+    "domain":[
+      "geosite:alibaba"
+    ],
+    "enabled":true,
+    "remarks":"Alibaba and AliExpress services direct"
+  },
+  {
+    "outboundTag":"direct",
     "ip":[
       "geoip:ru"
     ],
