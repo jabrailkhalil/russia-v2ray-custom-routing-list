@@ -35,6 +35,14 @@
     "remarks":"Discord domains via proxy"
   },
   {
+    "outboundTag":"proxy",
+    "domain":[
+      "geosite:itchio"
+    ],
+    "enabled":true,
+    "remarks":"Blocked gaming storefronts via proxy"
+  },
+  {
     "network":"tcp,udp",
     "outboundTag":"direct",
     "process":[
