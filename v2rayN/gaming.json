@@ -37,10 +37,18 @@
   {
     "outboundTag":"proxy",
     "domain":[
-      "geosite:itchio"
+      "geosite:ru-blocked"
     ],
     "enabled":true,
-    "remarks":"Blocked gaming storefronts via proxy"
+    "remarks":"Blocked domains via proxy"
+  },
+  {
+    "outboundTag":"proxy",
+    "ip":[
+      "geoip:ru-blocked"
+    ],
+    "enabled":true,
+    "remarks":"Blocked networks via proxy"
   },
   {
     "network":"tcp,udp",
