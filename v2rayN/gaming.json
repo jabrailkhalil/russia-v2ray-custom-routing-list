@@ -35,6 +35,16 @@
     "remarks":"Discord domains via proxy"
   },
   {
+    "network":"tcp,udp",
+    "outboundTag":"direct",
+    "process":[
+      "dota2.exe",
+      "cs2.exe"
+    ],
+    "enabled":true,
+    "remarks":"Dota 2 and Counter-Strike 2 always direct (TUN)"
+  },
+  {
     "outboundTag":"proxy",
     "domain":[
       "geosite:ru-blocked"
@@ -54,8 +64,6 @@
     "network":"tcp,udp",
     "outboundTag":"direct",
     "process":[
-      "dota2.exe",
-      "cs2.exe",
       "steam.exe",
       "steamwebhelper.exe",
       "EpicGamesLauncher.exe",
